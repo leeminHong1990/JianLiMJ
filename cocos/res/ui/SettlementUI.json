@@ -1,0 +1,4882 @@
+{
+  "ID": "e8045bae-f10e-44f2-8b52-e7be269a11a0",
+  "Version": "3.10.0.0",
+  "Name": "SettlementUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 87,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 746,
+            "ActionTag": -691777100,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Alpha": 0,
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 178,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1713,
+            "ActionTag": 1170443489,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "settlement_bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -422,
+            "Scale9OriginY": -173,
+            "Scale9Width": 844,
+            "Scale9Height": 346,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentWidthEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.7306
+            },
+            "TopMargin": 97.0,
+            "BottomMargin": 97.0,
+            "Tag": 1655,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BackGround/settlement_win.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 422,
+                "Scale9OriginY": 173,
+                "Scale9Width": 436,
+                "Scale9Height": 180,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 263.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 1687,
+                "ActionTag": -773827605,
+                "Size": {
+                  "X": 1280.0,
+                  "Y": 526.0
+                },
+                "Name": "bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "SettlementUI/title_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 336,
+                "Scale9OriginY": 54,
+                "Scale9Width": 348,
+                "Scale9Height": 56,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 473.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9
+                },
+                "PreSize": {
+                  "X": 0.7969,
+                  "Y": 0.3118
+                },
+                "LeftMargin": 130.0,
+                "RightMargin": 130.0,
+                "TopMargin": -29.4,
+                "BottomMargin": 391.4,
+                "Tag": 1804,
+                "ActionTag": 1078838451,
+                "Size": {
+                  "X": 1020.0,
+                  "Y": 164.0
+                },
+                "Name": "title_bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "SettlementUI/win_title.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 99,
+                "Scale9OriginY": 52,
+                "Scale9Width": 104,
+                "Scale9Height": 54,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0,
+                  "Y": 473.4
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.9
+                },
+                "PreSize": {
+                  "X": 0.2359,
+                  "Y": 0.3004
+                },
+                "LeftMargin": 489.0,
+                "RightMargin": 489.0,
+                "TopMargin": -26.4,
+                "BottomMargin": 394.4,
+                "Tag": 1805,
+                "ActionTag": 939778767,
+                "Size": {
+                  "X": 302.0,
+                  "Y": 158.0
+                },
+                "Name": "title_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "SettlementUI/bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 58,
+                "Scale9OriginY": 19,
+                "Scale9Width": 60,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 128.0,
+                  "Y": 284.04
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1,
+                  "Y": 0.54
+                },
+                "PreSize": {
+                  "X": 0.1375,
+                  "Y": 0.1141
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 1064.0,
+                "TopMargin": 211.96,
+                "BottomMargin": 254.04,
+                "Tag": 3026,
+                "ActionTag": 766919138,
+                "Size": {
+                  "X": 176.0,
+                  "Y": 60.0
+                },
+                "VisibleForFrame": false,
+                "Name": "win_bg_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "SettlementUI/pinghu.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 55,
+                "Scale9OriginY": 14,
+                "Scale9Width": 58,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 128.0,
+                  "Y": 284.04
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1,
+                  "Y": 0.54
+                },
+                "PreSize": {
+                  "X": 0.1312,
+                  "Y": 0.0837
+                },
+                "LeftMargin": 44.0,
+                "RightMargin": 1068.0,
+                "TopMargin": 219.96,
+                "BottomMargin": 262.04,
+                "Tag": 3027,
+                "ActionTag": -2025424902,
+                "Size": {
+                  "X": 168.0,
+                  "Y": 44.0
+                },
+                "VisibleForFrame": false,
+                "Name": "win_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "BackGround/dark_bg.png",
+                  "Plist": ""
+                },
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 50,
+                "Scale9OriginY": 21,
+                "Scale9Width": 54,
+                "Scale9Height": 22,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.0005,
+                  "Y": 245.1809
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4661
+                },
+                "PercentWidthEnable": true,
+                "PercentWidthEnabled": true,
+                "PreSize": {
+                  "X": 0.96,
+                  "Y": 0.1217
+                },
+                "LeftMargin": 25.6005,
+                "RightMargin": 25.5996,
+                "TopMargin": 248.8191,
+                "BottomMargin": 213.1809,
+                "Tag": 1806,
+                "Children": [
+                  {
+                    "FontSize": 30,
+                    "LabelText": "局数：第1局",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 122.88,
+                      "Y": 32.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.1,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.1343,
+                      "Y": 0.4688
+                    },
+                    "LeftMargin": 40.38,
+                    "RightMargin": 1023.4199,
+                    "TopMargin": 17.0,
+                    "BottomMargin": 17.0,
+                    "Tag": 270,
+                    "ActionTag": 88799042,
+                    "Size": {
+                      "X": 165.0,
+                      "Y": 30.0
+                    },
+                    "Name": "round_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 30,
+                    "LabelText": "房间模式：金典模式",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 430.08,
+                      "Y": 32.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.35,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.2197,
+                      "Y": 0.4688
+                    },
+                    "LeftMargin": 295.08,
+                    "RightMargin": 663.72,
+                    "TopMargin": 17.0,
+                    "BottomMargin": 17.0,
+                    "Tag": 271,
+                    "ActionTag": 1025825310,
+                    "Size": {
+                      "X": 270.0,
+                      "Y": 30.0
+                    },
+                    "Name": "room_mode",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1752092505,
+                "Size": {
+                  "X": 1228.7999,
+                  "Y": 64.0
+                },
+                "Name": "info_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.3,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 652.8,
+                  "Y": 347.16
+                },
+                "Scale": {
+                  "ScaleX": 1.44,
+                  "ScaleY": 1.44
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.51,
+                  "Y": 0.66
+                },
+                "PreSize": {
+                  "X": 0.8141,
+                  "Y": 0.1122
+                },
+                "LeftMargin": 340.2,
+                "RightMargin": -102.2,
+                "TopMargin": 149.34,
+                "BottomMargin": 317.66,
+                "Tag": 2970,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.55,
+                      "ScaleY": 0.55
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.8644
+                    },
+                    "TopMargin": -51.0,
+                    "Tag": 2971,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "RightMargin": 967.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2972,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2973,
+                            "ActionTag": 748575305,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 2101226590,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 73.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0701,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 73.0,
+                        "RightMargin": 894.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2974,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2975,
+                            "ActionTag": 556547264,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1557210320,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 146.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.1401,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 146.0,
+                        "RightMargin": 821.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2976,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2977,
+                            "ActionTag": -1142494813,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -693790755,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 219.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2102,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 219.0,
+                        "RightMargin": 748.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2978,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2979,
+                            "ActionTag": 1871341894,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 100894900,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_3",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 292.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.2802,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 292.0,
+                        "RightMargin": 675.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2980,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2981,
+                            "ActionTag": 1410089748,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 2095714125,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_4",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 365.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.3503,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 365.0,
+                        "RightMargin": 602.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2982,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2983,
+                            "ActionTag": 200475901,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1530978574,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_5",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 438.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4203,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 438.0,
+                        "RightMargin": 529.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2984,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2985,
+                            "ActionTag": -65039449,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -2141091633,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_6",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 511.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.4904,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 511.0,
+                        "RightMargin": 456.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2986,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2987,
+                            "ActionTag": -1068650332,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1670689603,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_7",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 584.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.5605,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 584.0,
+                        "RightMargin": 383.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2988,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2989,
+                            "ActionTag": -1944541242,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1844619335,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_8",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 657.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.6305,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 657.0,
+                        "RightMargin": 310.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2990,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2991,
+                            "ActionTag": -718832401,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -362430122,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_9",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 730.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7006,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 730.0,
+                        "RightMargin": 237.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2992,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2993,
+                            "ActionTag": 1011562504,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1511400468,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_10",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 803.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.7706,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 803.0,
+                        "RightMargin": 164.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2994,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2995,
+                            "ActionTag": -1439962733,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 832866223,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_11",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 876.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.8407,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 876.0,
+                        "RightMargin": 91.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2996,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2997,
+                            "ActionTag": 998579715,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1145154969,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_12",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_hand.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 75,
+                        "Scale9Height": 111,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 949.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.9107,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 0.072,
+                          "Y": 1.0091
+                        },
+                        "LeftMargin": 949.0,
+                        "RightMargin": 18.0,
+                        "TopMargin": -1.0,
+                        "Tag": 2998,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_big_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 15,
+                            "Scale9OriginY": 25,
+                            "Scale9Width": 18,
+                            "Scale9Height": 27,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 37.0,
+                              "Y": 45.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.4933,
+                              "Y": 0.4054
+                            },
+                            "PreSize": {
+                              "X": 0.64,
+                              "Y": 0.6937
+                            },
+                            "LeftMargin": 13.0,
+                            "RightMargin": 14.0,
+                            "TopMargin": 27.5,
+                            "BottomMargin": 6.5,
+                            "Tag": 2999,
+                            "ActionTag": -1921821040,
+                            "Size": {
+                              "X": 48.0,
+                              "Y": 77.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1660440019,
+                        "Size": {
+                          "X": 75.0,
+                          "Y": 111.0
+                        },
+                        "Name": "tile_img_13",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "TouchEnable": true,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PercentWidthEnable": true,
+                        "PercentHeightEnable": true,
+                        "PercentWidthEnabled": true,
+                        "PercentHeightEnabled": true,
+                        "PreSize": {
+                          "X": 1.0,
+                          "Y": 1.0
+                        },
+                        "Tag": 3000,
+                        "ActionTag": -1913795511,
+                        "Size": {
+                          "X": 1042.0,
+                          "Y": 110.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "mask_panel",
+                        "ctype": "PanelObjectData"
+                      }
+                    ],
+                    "ActionTag": -343533420,
+                    "Size": {
+                      "X": 1042.0,
+                      "Y": 110.0
+                    },
+                    "Name": "player_hand_panel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 3001,
+                    "Children": [
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "RightMargin": 1002.0,
+                        "Tag": 3002,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3003,
+                            "ActionTag": -878468022,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 312954618,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_0",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 38.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0365,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 38.0,
+                        "RightMargin": 964.0,
+                        "Tag": 3004,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3005,
+                            "ActionTag": 309398177,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1030396569,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_1",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 76.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.0729,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 76.0,
+                        "RightMargin": 926.0,
+                        "Tag": 3006,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3007,
+                            "ActionTag": -627293302,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1215564520,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_2",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 136.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.1305,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 136.0,
+                        "RightMargin": 866.0,
+                        "Tag": 3008,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3009,
+                            "ActionTag": -1360334021,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 204351029,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_3",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 172.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.1651,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 172.0,
+                        "RightMargin": 830.0,
+                        "Tag": 3010,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3011,
+                            "ActionTag": 774185313,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1655339012,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_4",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 208.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.1996,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 208.0,
+                        "RightMargin": 794.0,
+                        "Tag": 3012,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3013,
+                            "ActionTag": -642691173,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1661633445,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_5",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 268.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.2572,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 268.0,
+                        "RightMargin": 734.0,
+                        "Tag": 3014,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3015,
+                            "ActionTag": -1112066766,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1125944921,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_6",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 306.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.2937,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 306.0,
+                        "RightMargin": 696.0,
+                        "Tag": 3016,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3017,
+                            "ActionTag": -176953815,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 108360931,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_7",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 344.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.3301,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 344.0,
+                        "RightMargin": 658.0,
+                        "Tag": 3018,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3019,
+                            "ActionTag": -989645599,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": -1997642873,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_8",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 404.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.3877,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 404.0,
+                        "RightMargin": 598.0,
+                        "Tag": 3020,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3021,
+                            "ActionTag": -1817697948,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1742259268,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_9",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 442.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4242,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 442.0,
+                        "RightMargin": 560.0,
+                        "Tag": 3022,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 20.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.6271
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.5,
+                            "RightMargin": 7.5,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 17.5,
+                            "Tag": 3023,
+                            "ActionTag": -1400740673,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 2143965884,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_10",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "Mahjong/mahjong_tile_player_up.png",
+                          "Plist": "Mahjong.plist"
+                        },
+                        "Scale9Width": 40,
+                        "Scale9Height": 59,
+                        "AnchorPoint": {
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 480.0,
+                          "Y": 29.5
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.4607,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.0384,
+                          "Y": 1.0
+                        },
+                        "LeftMargin": 480.0,
+                        "RightMargin": 522.0,
+                        "Tag": 3024,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Mahjong/mahjong_small_9.png",
+                              "Plist": "Mahjong.plist"
+                            },
+                            "Scale9OriginX": 10,
+                            "Scale9OriginY": 14,
+                            "Scale9Width": 5,
+                            "Scale9Height": 11,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5469,
+                              "ScaleY": 0.4505
+                            },
+                            "Position": {
+                              "X": 21.1714,
+                              "Y": 35.0714
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.5293,
+                              "Y": 0.5944
+                            },
+                            "PreSize": {
+                              "X": 0.625,
+                              "Y": 0.661
+                            },
+                            "LeftMargin": 7.4989,
+                            "RightMargin": 7.5011,
+                            "TopMargin": 2.4981,
+                            "BottomMargin": 17.5019,
+                            "Tag": 3025,
+                            "ActionTag": -965066124,
+                            "Size": {
+                              "X": 25.0,
+                              "Y": 39.0
+                            },
+                            "Name": "mahjong_img",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 661664161,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 59.0
+                        },
+                        "Name": "tile_img_11",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": -466665075,
+                    "Size": {
+                      "X": 1042.0,
+                      "Y": 59.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "player_up_panel",
+                    "ctype": "PanelObjectData"
+                  }
+                ],
+                "ActionTag": 1858925058,
+                "Size": {
+                  "X": 1042.0,
+                  "Y": 59.0
+                },
+                "Name": "player_tile_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 127,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 102.4,
+                  "Y": 99.94
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.08,
+                  "Y": 0.19
+                },
+                "PreSize": {
+                  "X": 0.1016,
+                  "Y": 0.3422
+                },
+                "LeftMargin": 37.4,
+                "RightMargin": 1112.6,
+                "TopMargin": 336.06,
+                "BottomMargin": 9.94,
+                "Tag": 1770,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "SettlementUI/info_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 105,
+                    "Scale9OriginY": 57,
+                    "Scale9Width": 110,
+                    "Scale9Height": 60,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 146.0,
+                      "Y": 98.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.1231,
+                      "Y": 0.5444
+                    },
+                    "PreSize": {
+                      "X": 2.4615,
+                      "Y": 0.9667
+                    },
+                    "LeftMargin": -14.0,
+                    "RightMargin": -176.0,
+                    "TopMargin": -5.0,
+                    "BottomMargin": 11.0,
+                    "Tag": 1779,
+                    "ActionTag": 975263290,
+                    "Size": {
+                      "X": 320.0,
+                      "Y": 174.0
+                    },
+                    "Name": "bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_portrait_mask.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 90.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.7,
+                      "ScaleY": 1.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3846,
+                      "Y": 0.2778
+                    },
+                    "LeftMargin": 40.0,
+                    "RightMargin": 40.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": 65.0,
+                    "Tag": 1771,
+                    "ActionTag": 1323230463,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Name": "portrait_sprite",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "GameHallUI/frame.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 24,
+                    "Scale9OriginY": 24,
+                    "Scale9Width": 77,
+                    "Scale9Height": 77,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 90.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.9615,
+                      "Y": 0.6944
+                    },
+                    "LeftMargin": 2.5,
+                    "RightMargin": 2.5,
+                    "TopMargin": 27.5,
+                    "BottomMargin": 27.5,
+                    "Tag": 1772,
+                    "ActionTag": -361454680,
+                    "Size": {
+                      "X": 125.0,
+                      "Y": 125.0
+                    },
+                    "Name": "frame_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 18,
+                    "LabelText": "我我我我我我我",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 153.9996
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 57,
+                      "G": 84,
+                      "B": 68
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8556
+                    },
+                    "PreSize": {
+                      "X": 0.9231,
+                      "Y": 0.1111
+                    },
+                    "LeftMargin": 5.0,
+                    "RightMargin": 5.0,
+                    "TopMargin": 16.0004,
+                    "BottomMargin": 143.9996,
+                    "Tag": 1773,
+                    "ActionTag": -1802599036,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 20.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "+562",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 224.0,
+                      "Y": 62.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 62,
+                      "G": 121,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.7231,
+                      "Y": 0.3444
+                    },
+                    "PreSize": {
+                      "X": 0.9231,
+                      "Y": 0.2222
+                    },
+                    "LeftMargin": 164.0,
+                    "RightMargin": -154.0,
+                    "TopMargin": 98.0,
+                    "BottomMargin": 42.0,
+                    "Tag": 1775,
+                    "ActionTag": 1072389764,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 40.0
+                    },
+                    "Name": "score_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_dealer_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 18,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2308,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.3385,
+                      "Y": 0.2444
+                    },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 78.0,
+                    "TopMargin": 38.0,
+                    "BottomMargin": 98.0,
+                    "Tag": 1776,
+                    "ActionTag": -1237490689,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "dealer_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_roomowner_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 21,
+                    "Scale9OriginY": 8,
+                    "Scale9Width": 2,
+                    "Scale9Height": 26,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.9999,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7692,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.3385,
+                      "Y": 0.2333
+                    },
+                    "LeftMargin": 77.9999,
+                    "RightMargin": 8.0001,
+                    "TopMargin": 39.0,
+                    "BottomMargin": 99.0,
+                    "Tag": 1777,
+                    "ActionTag": -1478652821,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 42.0
+                    },
+                    "Name": "owner_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1040693943,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 180.0
+                },
+                "Name": "player_info_panel0",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 127,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 409.6,
+                  "Y": 99.94
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.32,
+                  "Y": 0.19
+                },
+                "PreSize": {
+                  "X": 0.1016,
+                  "Y": 0.3422
+                },
+                "LeftMargin": 344.6,
+                "RightMargin": 805.4,
+                "TopMargin": 336.06,
+                "BottomMargin": 9.94,
+                "Tag": 1780,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "SettlementUI/info_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 105,
+                    "Scale9OriginY": 57,
+                    "Scale9Width": 110,
+                    "Scale9Height": 60,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 146.0,
+                      "Y": 98.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.1231,
+                      "Y": 0.5444
+                    },
+                    "PreSize": {
+                      "X": 2.4615,
+                      "Y": 0.9667
+                    },
+                    "LeftMargin": -14.0,
+                    "RightMargin": -176.0,
+                    "TopMargin": -5.0,
+                    "BottomMargin": 11.0,
+                    "Tag": 1781,
+                    "ActionTag": -861161612,
+                    "Size": {
+                      "X": 320.0,
+                      "Y": 174.0
+                    },
+                    "Name": "bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_portrait_mask.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 90.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.7,
+                      "ScaleY": 1.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3846,
+                      "Y": 0.2778
+                    },
+                    "LeftMargin": 40.0,
+                    "RightMargin": 40.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": 65.0,
+                    "Tag": 1782,
+                    "ActionTag": -1716244121,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Name": "portrait_sprite",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "GameHallUI/frame.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 24,
+                    "Scale9OriginY": 24,
+                    "Scale9Width": 77,
+                    "Scale9Height": 77,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 90.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.9615,
+                      "Y": 0.6944
+                    },
+                    "LeftMargin": 2.5,
+                    "RightMargin": 2.5,
+                    "TopMargin": 27.5,
+                    "BottomMargin": 27.5,
+                    "Tag": 1783,
+                    "ActionTag": -431140828,
+                    "Size": {
+                      "X": 125.0,
+                      "Y": 125.0
+                    },
+                    "Name": "frame_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 18,
+                    "LabelText": "我我我我我我我",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 153.9996
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 57,
+                      "G": 84,
+                      "B": 68
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8556
+                    },
+                    "PreSize": {
+                      "X": 0.9231,
+                      "Y": 0.1111
+                    },
+                    "LeftMargin": 5.0,
+                    "RightMargin": 5.0,
+                    "TopMargin": 16.0004,
+                    "BottomMargin": 143.9996,
+                    "Tag": 1784,
+                    "ActionTag": 1019185851,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 20.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "+562",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 224.0,
+                      "Y": 62.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 62,
+                      "G": 121,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.7231,
+                      "Y": 0.3444
+                    },
+                    "PreSize": {
+                      "X": 0.9231,
+                      "Y": 0.2222
+                    },
+                    "LeftMargin": 164.0,
+                    "RightMargin": -154.0,
+                    "TopMargin": 98.0,
+                    "BottomMargin": 42.0,
+                    "Tag": 1785,
+                    "ActionTag": 1896334792,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 40.0
+                    },
+                    "Name": "score_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_dealer_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 18,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2308,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.3385,
+                      "Y": 0.2444
+                    },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 78.0,
+                    "TopMargin": 38.0,
+                    "BottomMargin": 98.0,
+                    "Tag": 1786,
+                    "ActionTag": 1452792672,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "dealer_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_roomowner_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 21,
+                    "Scale9OriginY": 8,
+                    "Scale9Width": 2,
+                    "Scale9Height": 26,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.9999,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7692,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.3385,
+                      "Y": 0.2333
+                    },
+                    "LeftMargin": 77.9999,
+                    "RightMargin": 8.0001,
+                    "TopMargin": 39.0,
+                    "BottomMargin": 99.0,
+                    "Tag": 1787,
+                    "ActionTag": 117210653,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 42.0
+                    },
+                    "Name": "owner_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 813585358,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 180.0
+                },
+                "Name": "player_info_panel1",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 127,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 716.8,
+                  "Y": 99.94
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.56,
+                  "Y": 0.19
+                },
+                "PreSize": {
+                  "X": 0.1016,
+                  "Y": 0.3422
+                },
+                "LeftMargin": 651.8,
+                "RightMargin": 498.2,
+                "TopMargin": 336.06,
+                "BottomMargin": 9.94,
+                "Tag": 1788,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "SettlementUI/info_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 105,
+                    "Scale9OriginY": 57,
+                    "Scale9Width": 110,
+                    "Scale9Height": 60,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 146.0,
+                      "Y": 98.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.1231,
+                      "Y": 0.5444
+                    },
+                    "PreSize": {
+                      "X": 2.4615,
+                      "Y": 0.9667
+                    },
+                    "LeftMargin": -14.0,
+                    "RightMargin": -176.0,
+                    "TopMargin": -5.0,
+                    "BottomMargin": 11.0,
+                    "Tag": 1789,
+                    "ActionTag": -1560578439,
+                    "Size": {
+                      "X": 320.0,
+                      "Y": 174.0
+                    },
+                    "Name": "bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_portrait_mask.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 90.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.7,
+                      "ScaleY": 1.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3846,
+                      "Y": 0.2778
+                    },
+                    "LeftMargin": 40.0,
+                    "RightMargin": 40.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": 65.0,
+                    "Tag": 1790,
+                    "ActionTag": -583516912,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Name": "portrait_sprite",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "GameHallUI/frame.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 24,
+                    "Scale9OriginY": 24,
+                    "Scale9Width": 77,
+                    "Scale9Height": 77,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 90.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.9615,
+                      "Y": 0.6944
+                    },
+                    "LeftMargin": 2.5,
+                    "RightMargin": 2.5,
+                    "TopMargin": 27.5,
+                    "BottomMargin": 27.5,
+                    "Tag": 1791,
+                    "ActionTag": -1604228169,
+                    "Size": {
+                      "X": 125.0,
+                      "Y": 125.0
+                    },
+                    "Name": "frame_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 18,
+                    "LabelText": "我我我我我我我",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 153.9996
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 57,
+                      "G": 84,
+                      "B": 68
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8556
+                    },
+                    "PreSize": {
+                      "X": 0.9231,
+                      "Y": 0.1111
+                    },
+                    "LeftMargin": 5.0,
+                    "RightMargin": 5.0,
+                    "TopMargin": 16.0004,
+                    "BottomMargin": 143.9996,
+                    "Tag": 1792,
+                    "ActionTag": 1132347140,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 20.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "+562",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 224.0,
+                      "Y": 62.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 62,
+                      "G": 121,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.7231,
+                      "Y": 0.3444
+                    },
+                    "PreSize": {
+                      "X": 0.9231,
+                      "Y": 0.2222
+                    },
+                    "LeftMargin": 164.0,
+                    "RightMargin": -154.0,
+                    "TopMargin": 98.0,
+                    "BottomMargin": 42.0,
+                    "Tag": 1793,
+                    "ActionTag": 1181729836,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 40.0
+                    },
+                    "Name": "score_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_dealer_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 18,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2308,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.3385,
+                      "Y": 0.2444
+                    },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 78.0,
+                    "TopMargin": 38.0,
+                    "BottomMargin": 98.0,
+                    "Tag": 1794,
+                    "ActionTag": -223229269,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "dealer_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_roomowner_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 21,
+                    "Scale9OriginY": 8,
+                    "Scale9Width": 2,
+                    "Scale9Height": 26,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.9999,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7692,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.3385,
+                      "Y": 0.2333
+                    },
+                    "LeftMargin": 77.9999,
+                    "RightMargin": 8.0001,
+                    "TopMargin": 39.0,
+                    "BottomMargin": 99.0,
+                    "Tag": 1795,
+                    "ActionTag": 1445687420,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 42.0
+                    },
+                    "Name": "owner_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -991488578,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 180.0
+                },
+                "Name": "player_info_panel2",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 127,
+                "SingleColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1024.0,
+                  "Y": 99.94
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8,
+                  "Y": 0.19
+                },
+                "PreSize": {
+                  "X": 0.1016,
+                  "Y": 0.3422
+                },
+                "LeftMargin": 959.0,
+                "RightMargin": 191.0,
+                "TopMargin": 336.06,
+                "BottomMargin": 9.94,
+                "Tag": 1796,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "SettlementUI/info_bg.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 105,
+                    "Scale9OriginY": 57,
+                    "Scale9Width": 110,
+                    "Scale9Height": 60,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 146.0,
+                      "Y": 98.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.1231,
+                      "Y": 0.5444
+                    },
+                    "PreSize": {
+                      "X": 2.4615,
+                      "Y": 0.9667
+                    },
+                    "LeftMargin": -14.0,
+                    "RightMargin": -176.0,
+                    "TopMargin": -5.0,
+                    "BottomMargin": 11.0,
+                    "Tag": 1797,
+                    "ActionTag": -943911813,
+                    "Size": {
+                      "X": 320.0,
+                      "Y": 174.0
+                    },
+                    "Name": "bg_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_portrait_mask.png",
+                      "Plist": ""
+                    },
+                    "BlendFunc": {
+                      "Src": 1,
+                      "Dst": 771
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 90.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.7,
+                      "ScaleY": 1.7
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.3846,
+                      "Y": 0.2778
+                    },
+                    "LeftMargin": 40.0,
+                    "RightMargin": 40.0,
+                    "TopMargin": 65.0,
+                    "BottomMargin": 65.0,
+                    "Tag": 1798,
+                    "ActionTag": -1271032138,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 50.0
+                    },
+                    "Name": "portrait_sprite",
+                    "ctype": "SpriteObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "GameHallUI/frame.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 24,
+                    "Scale9OriginY": 24,
+                    "Scale9Width": 77,
+                    "Scale9Height": 77,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 90.0
+                    },
+                    "Scale": {
+                      "ScaleX": 0.8,
+                      "ScaleY": 0.8
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.9615,
+                      "Y": 0.6944
+                    },
+                    "LeftMargin": 2.5,
+                    "RightMargin": 2.5,
+                    "TopMargin": 27.5,
+                    "BottomMargin": 27.5,
+                    "Tag": 1799,
+                    "ActionTag": -1796868197,
+                    "Size": {
+                      "X": 125.0,
+                      "Y": 125.0
+                    },
+                    "Name": "frame_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 18,
+                    "LabelText": "我我我我我我我",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 65.0,
+                      "Y": 153.9996
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 57,
+                      "G": 84,
+                      "B": 68
+                    },
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.8556
+                    },
+                    "PreSize": {
+                      "X": 0.9231,
+                      "Y": 0.1111
+                    },
+                    "LeftMargin": 5.0,
+                    "RightMargin": 5.0,
+                    "TopMargin": 16.0004,
+                    "BottomMargin": 143.9996,
+                    "Tag": 1800,
+                    "ActionTag": 1602606036,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 20.0
+                    },
+                    "Name": "name_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "IsCustomSize": true,
+                    "FontSize": 30,
+                    "LabelText": "+562",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 224.0,
+                      "Y": 62.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 62,
+                      "G": 121,
+                      "B": 77
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 1.7231,
+                      "Y": 0.3444
+                    },
+                    "PreSize": {
+                      "X": 0.9231,
+                      "Y": 0.2222
+                    },
+                    "LeftMargin": 164.0,
+                    "RightMargin": -154.0,
+                    "TopMargin": 98.0,
+                    "BottomMargin": 42.0,
+                    "Tag": 1801,
+                    "ActionTag": -157848926,
+                    "Size": {
+                      "X": 120.0,
+                      "Y": 40.0
+                    },
+                    "Name": "score_label",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_dealer_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 13,
+                    "Scale9OriginY": 13,
+                    "Scale9Width": 18,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 30.0,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.2308,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.3385,
+                      "Y": 0.2444
+                    },
+                    "LeftMargin": 8.0,
+                    "RightMargin": 78.0,
+                    "TopMargin": 38.0,
+                    "BottomMargin": 98.0,
+                    "Tag": 1802,
+                    "ActionTag": -1801874181,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "dealer_img",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "Default/common_roomowner_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 21,
+                    "Scale9OriginY": 8,
+                    "Scale9Width": 2,
+                    "Scale9Height": 26,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.9999,
+                      "Y": 120.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.7692,
+                      "Y": 0.6667
+                    },
+                    "PreSize": {
+                      "X": 0.3385,
+                      "Y": 0.2333
+                    },
+                    "LeftMargin": 77.9999,
+                    "RightMargin": 8.0001,
+                    "TopMargin": 39.0,
+                    "BottomMargin": 99.0,
+                    "Tag": 1803,
+                    "ActionTag": 1090469941,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 42.0
+                    },
+                    "Name": "owner_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 451205135,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 180.0
+                },
+                "Name": "player_info_panel3",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 457737487,
+            "Size": {
+              "X": 1280.0,
+              "Y": 526.0
+            },
+            "Name": "settlement_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "SettlementUI/show_btn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 236,
+            "Scale9Height": 70,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 384.0,
+              "Y": 57.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.3,
+              "Y": 0.08
+            },
+            "PreSize": {
+              "X": 0.2078,
+              "Y": 0.1278
+            },
+            "LeftMargin": 251.0,
+            "RightMargin": 763.0,
+            "TopMargin": 616.4,
+            "BottomMargin": 11.6,
+            "Tag": 1714,
+            "ActionTag": 1493636459,
+            "Size": {
+              "X": 266.0,
+              "Y": 92.0
+            },
+            "Name": "show_btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "SettlementUI/hide_btn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 236,
+            "Scale9Height": 70,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 384.0,
+              "Y": 57.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.3,
+              "Y": 0.08
+            },
+            "PreSize": {
+              "X": 0.2078,
+              "Y": 0.1278
+            },
+            "LeftMargin": 251.0,
+            "RightMargin": 763.0,
+            "TopMargin": 616.4,
+            "BottomMargin": 11.6,
+            "Tag": 1715,
+            "ActionTag": -909437911,
+            "Size": {
+              "X": 266.0,
+              "Y": 92.0
+            },
+            "Name": "hide_btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "SettlementUI/confirm_btn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 236,
+            "Scale9Height": 70,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 896.0,
+              "Y": 57.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.7,
+              "Y": 0.08
+            },
+            "PreSize": {
+              "X": 0.2078,
+              "Y": 0.1278
+            },
+            "LeftMargin": 763.0,
+            "RightMargin": 251.0,
+            "TopMargin": 616.4,
+            "BottomMargin": 11.6,
+            "Tag": 911,
+            "ActionTag": 426048192,
+            "Size": {
+              "X": 266.0,
+              "Y": 92.0
+            },
+            "Name": "confirm_btn",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BackGround/dark_bg.png",
+        "BackGround/settlement_win.png",
+        "Default/common_dealer_img.png",
+        "Default/common_portrait_mask.png",
+        "Default/common_roomowner_img.png",
+        "GameHallUI/frame.png",
+        "Mahjong.plist",
+        "Mahjong.png",
+        "SettlementUI/bg.png",
+        "SettlementUI/confirm_btn.png",
+        "SettlementUI/hide_btn.png",
+        "SettlementUI/info_bg.png",
+        "SettlementUI/pinghu.png",
+        "SettlementUI/show_btn.png",
+        "SettlementUI/title_bg.png",
+        "SettlementUI/win_title.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

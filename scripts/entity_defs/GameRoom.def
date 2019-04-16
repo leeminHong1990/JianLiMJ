@@ -1,0 +1,73 @@
+<root>
+	<Volatile>
+		<position> 0 </position>
+		<yaw> 0 </yaw>
+		<pitch> 0 </pitch>
+		<roll> 0 </roll>
+	</Volatile>
+
+	<Implements>
+		<Interface>	GameObject		</Interface>
+	</Implements>
+
+	<Properties>
+		<roomId>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE		</Flags>
+		</roomId>
+		<owner_uid>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE		</Flags>
+		</owner_uid>
+		<game_round>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE		</Flags>
+		</game_round>
+		<lucky_tile>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE		</Flags>
+		</lucky_tile>
+		<is_agent>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE		</Flags>
+		</is_agent>
+		<maxOldDealNum>
+			<Type>			INT32			</Type>
+			<Flags>			BASE		</Flags>
+		</maxOldDealNum>
+		<startOldDealNum>
+			<Type>			UINT32			</Type>
+			<Flags>			BASE		</Flags>
+		</startOldDealNum>
+		<diceAddNum>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE		</Flags>
+		</diceAddNum>
+		<isSameAdd>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE		</Flags>
+		</isSameAdd>
+		<maxLoseScore>
+			<Type>			INT32			</Type>
+			<Flags>			BASE		</Flags>
+		</maxLoseScore>
+		<roomMode>
+			<Type>			UINT8			</Type>
+			<Flags>			BASE		</Flags>
+		</roomMode>
+	</Properties>
+
+
+	<BaseMethods>
+		<swapTileToTop>
+			<Arg>		UINT32		</Arg>
+		</swapTileToTop>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+	<ClientMethods>
+	</ClientMethods>
+</root>
+
